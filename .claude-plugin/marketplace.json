@@ -1,13 +1,18 @@
 {
   "name": "prom-motion-marketplace",
-  "owner": { "name": "SV Innovation" },
-  "metadata": { "description": "Prom Motion: source-led video editing workflows", "version": "1.0.0" },
+  "owner": {
+    "name": "SV Innovation"
+  },
+  "metadata": {
+    "description": "Prom Motion: source-led video editing workflows",
+    "version": "1.0.1"
+  },
   "plugins": [
     {
       "name": "prom-motion",
       "source": "./",
       "description": "A portable editing method with source-linked storyboards and complete-speech checks.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "category": "productivity"
     }
   ]

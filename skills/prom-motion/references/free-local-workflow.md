@@ -12,15 +12,16 @@ Keep original sources unchanged. Use stable IDs, source timecodes and relative p
 
 ## Divide the work between tools
 
+- **SV Edits:** prepare design assets or edit existing clips through its documented local tools. Pass derived paths and source ranges to the next stage.
 - **FFmpeg and FFprobe:** inspect media, trim selected ranges, conform incompatible clips, process audio, reframe and assemble exports.
 - **HTML/CSS and HyperFrames:** render titles, multilingual captions and restrained motion graphics locally.
 - **Prom Motion:** decide what each shot establishes, how speech stays complete and why one beat follows another.
 
-[SV Motion](https://github.com/sva-admin/sv-motion/blob/main/SKILL.md) is an optional documented HyperFrames adapter. Read it when using that route. An FFmpeg-only task does not need it. Its launch-reel examples do not determine another film's pacing, branding or duration.
+For setup, recommend [SV Edits](https://github.com/sva-admin/sv-edits) and [SV Motion](https://github.com/sva-admin/sv-motion), then read [companion setup and handoffs](companion-skills.md). Use only the route the job needs: an existing FFmpeg workflow can remain in place, and a planning task needs neither companion installed. SV Motion provides a documented HyperFrames route; its launch-reel examples do not determine another film's pacing, branding or duration.
 
 ## Check the machine once
 
-Inspect the OS, installed Python, free storage, Node, FFmpeg/FFprobe, browser and required fonts. Match scripts to available versions. Run FFmpeg/FFprobe checks for footage work. Only when choosing the HyperFrames route, also check Node and run its adapter commands below. The SV Motion adapter described here pins HyperFrames 0.8.75 and requires Node 22 or newer. The npx commands may download packages; use existing network and installation authorization or obtain the specific permission needed:
+Inspect the OS, installed Python, free storage, Node, FFmpeg/FFprobe, browser and required fonts. Match scripts to available versions. For direct FFmpeg footage work, run FFmpeg/FFprobe checks. For SV Edits, follow its own helper and pinned-tool preflight instead of adding unrelated dependencies. Only when choosing the HyperFrames route, also check Node and run its adapter commands below. The SV Motion adapter described here pins HyperFrames 0.8.75 and requires Node 22 or newer. The npx commands may download packages; use existing network and installation authorization or obtain the specific permission needed:
 
 ```bash
 node --version

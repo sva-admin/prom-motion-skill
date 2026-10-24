@@ -26,6 +26,12 @@ For finishing:
 
 > Use Prom Motion Skill to check my agreed delivery matrix, caption cue data and final export. Report what was verified, what remains unreviewed and the exact files to hand over.
 
+## Recommended companions
+
+Use [SV Edits](https://github.com/sva-admin/sv-edits) to prepare artwork, edit existing clips and extract stills. Use [SV Motion](https://github.com/sva-admin/sv-motion) to add editable titles, captions and motion graphics. Prom Motion supplies the story, source/timecode map and final review.
+
+[Download links, setup prompts and the handoff checklist](references/companion-skills.md) are included in this skill folder. These companions are separate optional downloads; loading Prom Motion does not install them or authorize extra tools.
+
 ## Contents
 
 `SKILL.md` routes to five focused workflows. `references/` holds detailed methods. `assets/` provides fictional JSON examples for a paper edit and multilingual cue data. The examples are not real source evidence or approved translations.

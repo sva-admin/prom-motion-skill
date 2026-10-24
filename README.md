@@ -4,6 +4,22 @@ A portable video editing skill for Claude Code and Codex. It teaches story plann
 
 The package contains original instructions and fictional examples. It contains no client files, credentials, footage, paid model access or copied third-party skill code.
 
+## Recommended companion skills
+
+Download [SV Edits](https://github.com/sva-admin/sv-edits) and [SV Motion](https://github.com/sva-admin/sv-motion) alongside Prom Motion for projects that need asset preparation and animated text. They are separate optional skills, not bundled dependencies.
+
+| Skill | Use it for | What it passes onward |
+| --- | --- | --- |
+| **Prom Motion** | Story, source evidence, speech continuity and final review | Shot order, source timecodes, caption cues and delivery requirements |
+| **[SV Edits](https://github.com/sva-admin/sv-edits)** | Preparing design files and editing existing footage | New trimmed clips, frame grabs, logo assets and editable design files |
+| **[SV Motion](https://github.com/sva-admin/sv-motion)** | HTML titles, captions, motion graphics and local video rendering | Editable compositions and rendered videos |
+
+The sequence is **plan with Prom Motion, prepare with SV Edits, compose with SV Motion, then review with Prom Motion**. Skip any stage the project does not need. Keep the user's existing editor when it fits.
+
+- [Download SV Edits ZIP](https://github.com/sva-admin/sv-edits/archive/refs/heads/main.zip)
+- [Download SV Motion ZIP](https://github.com/sva-admin/sv-motion/archive/refs/heads/main.zip)
+- [Setup prompts and handoff guide](skills/prom-motion/references/companion-skills.md)
+
 ## Plugin or standalone skill
 
 This repository now includes a Claude Code plugin manifest and a local marketplace. The same skill folder still works as a standalone skill in Claude Code or Codex. No services, hooks or media files run automatically.

@@ -29,6 +29,14 @@ These are Claude Code slash commands. Do not use the marketplace instructions ag
 
 For Codex, copy `skills/prom-motion` into your configured skills directory and invoke `$prom-motion`. Plugin manifest formats differ between hosts; this package's plugin manifest targets Claude Code. The skill folder remains portable.
 
+## Add the companions when needed
+
+For editing assets and existing clips, use [SV Edits](https://github.com/sva-admin/sv-edits). For titles, captions and animated composition, use [SV Motion](https://github.com/sva-admin/sv-motion). Read [setup and handoffs](skills/prom-motion/references/companion-skills.md), including the download links, before the first combined job.
+
+> Use Prom Motion for the story and source map. Check whether SV Edits and SV Motion are available. Recommend the companion needed for each step and show its installation instructions if missing. Use SV Edits for asset preparation or clip edits, SV Motion for animated text, and return to Prom Motion to review the encoded result. Preserve originals and keep everything tied to the same source IDs and caption cues.
+
+Downloading a skill and setting up its editing tools are separate steps. Read each companion's own instructions for supported platforms, pinned versions and setup permissions. Do not install both toolchains for a task that only needs an existing editor.
+
 ## 1. Give a brief
 
 > Use Prom Motion. Make a 45 to 60 second story for people who have never heard of this project. The takeaway is that a small team solved one recognisable problem. Use the footage in the folder I provide. Keep real speech and complete sentences, use Thai above English subtitles, and do not add music or generated scenes. First return a storyboard with exact source ranges. Do not render yet.
