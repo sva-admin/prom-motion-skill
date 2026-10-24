@@ -18,6 +18,10 @@ Read only the references needed for the current task:
 
 The templates in `assets/` contain fictional practice data. Use `assets/paper-edit-template.json` for source-linked beats and `assets/caption-cues-template.json` for shared subtitle cues. Replace all examples with reviewed project evidence.
 
+## Confidential examples
+
+Keep teaching examples and exported learnings anonymous. Use generic roles and placeholder copy. Do not include client names, brands, figures, private paths or identifying project details.
+
 ## Working rules
 
 1. Separate listed, downloaded, viewed, selected, rendered and approved states. A file called final is not evidence of approval.
