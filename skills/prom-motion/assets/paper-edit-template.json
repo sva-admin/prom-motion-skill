@@ -26,7 +26,10 @@
       "spoken_text": "Replace with a complete reviewed sentence.",
       "claim_status": "fictional_placeholder",
       "transition_to_next": "The stated need motivates a first attempt.",
-      "status": "proposed"
+      "status": "proposed",
+      "audio_source_out_seconds": 8,
+      "audio_timeline_in_frame": 0,
+      "audio_timeline_out_frame": 150
     }
   ],
   "open_questions": [

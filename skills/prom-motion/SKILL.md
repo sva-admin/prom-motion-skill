@@ -1,6 +1,6 @@
 ---
 name: prom-motion
-description: Plan and edit coherent videos from supplied footage using evidence-backed storyboards, complete speech, motivated transitions, multilingual captions and reproducible finishing. Use for corporate films, testimonials, recaps or controlled AI transition studies; preserve each project's scope and approvals.
+description: Plan and edit coherent videos from supplied footage using evidence-backed storyboards, complete speech, motivated transitions, multilingual captions, free local editing workflows and reproducible finishing. Use for corporate films, testimonials, recaps or controlled AI transition studies; preserve each project's scope and approvals.
 ---
 
 # Prom Motion Skill
@@ -11,6 +11,7 @@ Use this skill to make the viewer understand why each shot follows the previous 
 
 Read only the references needed for the current task:
 
+- **An authorized edit with no new production spending:** [free local workflow](references/free-local-workflow.md). Reuse the source review, make a small playable proof with existing footage and local tools, then expand after review. Keep an explicit planning-only request in planning.
 - **Mixed assets, unclear story or new project:** [evidence storyboard](references/evidence-storyboard.md), then [source records](references/source-map.md). Produce a grounded paper edit before rendering.
 - **Choppy speech, weak hook, random B-roll or broken ending:** [speech and continuity](references/speech-continuity.md), then [repair choices](references/continuity-repairs.md). Review the actual source ranges with sound.
 - **Subtitles, orientation, color, audio or delivery:** [multilingual finishing](references/multilingual-finishing.md), then [technical checks](references/technical-checks.md). Verify the encoded output and preserve editable cue data.

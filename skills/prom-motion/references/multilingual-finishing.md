@@ -1,6 +1,6 @@
 # Multilingual video finishing
 
-Confirm the delivery matrix first: duration, aspect ratio, resolution, frame rate, narration language, subtitle languages, combined versus separate subtitle editions, clean or music versions, and editable handover files. Do not multiply exports when languages are meant to appear together.
+Before final delivery, confirm the delivery matrix: duration, aspect ratio, resolution, frame rate, narration language, subtitle languages, combined versus separate subtitle editions, clean or music versions, and editable handover files. Do not multiply exports when languages are meant to appear together. For an authorized proof, label unresolved format choices as provisional and continue work that does not depend on them.
 
 Use `technical-checks.md` for media checks and `../assets/caption-cues-template.json` for a shared caption record.
 
@@ -16,7 +16,7 @@ Keep cue IDs, source/timeline times, original speech, approved translations, spe
 
 Check actual language before transcription. Machine Thai word timestamps may split written words, so choose readable phrase boundaries. Maintain a reviewed glossary for names, titles and technical terms. Mark unclear hearing or translation for review instead of silently choosing a plausible meaning. Simplified and Traditional Chinese are distinct choices.
 
-For combined languages, establish a consistent order and sufficient reading time. In a three-language layout, shorten captions into consecutive phrase cues before shrinking type. Check Thai combining marks and Chinese glyph coverage with licensed fonts. Wait for fonts to load before measuring or rendering text. Preserve English narration meaning across translations and obtain the nominated language approver's review.
+For combined languages, establish a consistent order and sufficient reading time. In a three-language layout, shorten captions into consecutive phrase cues before shrinking type. When those languages are requested, check Thai combining marks and Chinese glyph coverage with licensed fonts. Wait for fonts to load before measuring or rendering text. Preserve the original narration meaning across translations and obtain the nominated language approver's review.
 
 Place subtitles away from faces, mouths, nameplates and platform controls. Use aspect-specific layouts. Check a phone-size viewing copy and the actual delivery context; old safe-area pixel values are not permanent platform rules.
 

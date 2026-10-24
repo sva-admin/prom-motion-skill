@@ -19,7 +19,10 @@
       "th": "เราเริ่มจากคำถาม",
       "zh-Hans": "我们从问题开始。",
       "review_status": "example_only_not_client_approved",
-      "uncertainty": []
+      "uncertainty": [],
+      "source_out_seconds": 5,
+      "original_language": "en",
+      "original_text": "We start with the question."
     }
   ],
   "glossary": [],
