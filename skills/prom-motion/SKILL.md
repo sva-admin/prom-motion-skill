@@ -9,6 +9,8 @@ Use this skill to make the viewer understand why each shot follows the previous 
 
 ## Choose the relevant workflow
 
+For a first project, read [the story example](references/story-example.md) to see how a problem, response and visible result connect. Its people and source times are fictional.
+
 Read only the references needed for the current task:
 
 - **An authorized edit with no new production spending:** [free local workflow](references/free-local-workflow.md). Reuse the source review, make a small playable proof with existing footage and local tools, then expand after review. Keep an explicit planning-only request in planning.

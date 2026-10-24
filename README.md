@@ -4,7 +4,26 @@ A portable video editing skill for Claude Code and Codex. It teaches story plann
 
 The package contains original instructions and fictional examples. It contains no client files, credentials, footage, paid model access or copied third-party skill code.
 
-## Use
+## Plugin or standalone skill
+
+This repository now includes a Claude Code plugin manifest and a local marketplace. The same skill folder still works as a standalone skill in Claude Code or Codex. No services, hooks or media files run automatically.
+
+For local testing, from this folder:
+
+```bash
+claude plugin validate . --strict
+claude --plugin-dir .
+```
+
+Then invoke `/prom-motion:prom-motion` in Claude Code. Read [Quickstart](QUICKSTART.md) for the marketplace installation commands, planning prompts, a small proof and revision checks. If you have an older standalone checkout, update it first so it contains `.claude-plugin/plugin.json`.
+
+Claude Code 2.1.275 or later also supports:
+
+```text
+/plugin install prom-motion --marketplace sva-admin/prom-motion-skill
+```
+
+## Standalone use
 
 Download this repository or clone it:
 
@@ -28,8 +47,19 @@ The skill works with your chosen editor. It does not install applications or gra
 
 ## Update
 
+For a marketplace installation, run these commands in your terminal, then restart Claude Code:
+
+```bash
+claude plugin marketplace update prom-motion-marketplace
+claude plugin update prom-motion@prom-motion-marketplace
+```
+
 If you use a Git clone, pull the latest permitted branch and update the installed `skills/prom-motion` folder from that checkout. A copy inside an older handover archive is a snapshot and does not update automatically.
 
 ## License
 
 MIT for the original instructions and templates. Rights to footage, music, fonts, tools and third-party material remain separate.
+
+## Package locally
+
+Run `python3 scripts/package.py` to create the ZIP in `dist/`. It packages only the plugin manifests, skill, documentation and packaging script. It does not upload or publish the result.

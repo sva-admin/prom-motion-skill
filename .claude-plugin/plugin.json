@@ -1,0 +1,10 @@
+{
+  "name": "prom-motion",
+  "version": "1.0.0",
+  "description": "Plan coherent edits from real footage, preserve complete speech, and deliver reviewed bilingual videos with source-linked storyboards.",
+  "author": { "name": "SV Innovation" },
+  "homepage": "https://github.com/sva-admin/prom-motion-skill",
+  "repository": "https://github.com/sva-admin/prom-motion-skill",
+  "license": "MIT",
+  "keywords": ["video", "storyboard", "editing", "captions", "continuity"]
+}
