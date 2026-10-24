@@ -6,7 +6,13 @@ The package contains original instructions and fictional examples. It contains n
 
 ## Use
 
-Read [the skill](skills/prom-motion/SKILL.md), or copy the complete `skills/prom-motion` folder into your configured skills directory, such as `~/.claude/skills/` or `~/.codex/skills/`.
+Download this repository or clone it:
+
+```bash
+git clone https://github.com/sva-admin/prom-motion-skill.git
+```
+
+Read [the skill](skills/prom-motion/SKILL.md), or copy the complete `skills/prom-motion` folder into your configured skills directory, such as `~/.claude/skills/` or `~/.codex/skills/`. Keep its references and assets together. Public downloads do not require a GitHub account or token.
 
 Example prompt:
 
@@ -22,7 +28,7 @@ The skill works with your chosen editor. It does not install applications or gra
 
 ## Update
 
-If you use a Git clone, pull the latest permitted branch and update the installed `skills/prom-motion` folder from that checkout. A copy inside an older handover archive is a snapshot and does not update automatically. Access to a private repository requires your own authorized GitHub account. Never share account tokens to install this skill.
+If you use a Git clone, pull the latest permitted branch and update the installed `skills/prom-motion` folder from that checkout. A copy inside an older handover archive is a snapshot and does not update automatically.
 
 ## License
 
