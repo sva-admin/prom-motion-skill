@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "fictional_practice": true,
+  "project": "Generic video practice",
+  "fps": 25,
+  "sources": [
+    {
+      "id": "S001",
+      "path": "sources/need.mp4",
+      "duration_seconds": 20,
+      "review_status": "practice_placeholder",
+      "rights_status": "use_only_your_authorized_footage"
+    }
+  ],
+  "beats": [
+    {
+      "id": "B01",
+      "purpose": "State the need",
+      "source_id": "S001",
+      "source_in_seconds": 2,
+      "source_out_seconds": 8,
+      "timeline_in_frame": 0,
+      "timeline_out_frame": 150,
+      "audio_source_id": "S001",
+      "audio_source_in_seconds": 2,
+      "spoken_text": "Replace with a complete reviewed sentence.",
+      "claim_status": "fictional_placeholder",
+      "transition_to_next": "The stated need motivates a first attempt.",
+      "status": "proposed"
+    }
+  ],
+  "open_questions": [
+    "Replace this example with actual reviewed source IDs and timings before rendering."
+  ]
+}

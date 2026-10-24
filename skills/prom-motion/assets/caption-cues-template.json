@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "fictional_practice": true,
+  "fps": 25,
+  "language_order": [
+    "en",
+    "th",
+    "zh-Hans"
+  ],
+  "cues": [
+    {
+      "id": "C001",
+      "in_frame": 0,
+      "out_frame": 75,
+      "source_id": "S001",
+      "source_in_seconds": 2,
+      "speaker": "Practice speaker",
+      "en": "We start with the question.",
+      "th": "เราเริ่มจากคำถาม",
+      "zh-Hans": "我们从问题开始。",
+      "review_status": "example_only_not_client_approved",
+      "uncertainty": []
+    }
+  ],
+  "glossary": [],
+  "note": "Invented practice copy. Confirm languages, timing and translations for the actual film."
+}
